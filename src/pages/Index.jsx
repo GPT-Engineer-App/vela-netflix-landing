@@ -5,6 +5,7 @@ const Index = () => {
   return (
     <Container maxW="full" p={0} m={0} bg="black" color="white" height="100vh">
       <Flex justify="space-between" align="center" p={4}>
+        <Image src="path_to_logo.png" alt="Vela Logo" boxSize="50px" mr={2} />
         <Heading as="h1" size="xl">
           Vela
         </Heading>
