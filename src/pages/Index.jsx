@@ -9,7 +9,7 @@ const Index = () => {
         <Heading as="h1" size="xl">
           Vela
         </Heading>
-        <Button rightIcon={<FaRocket />} colorScheme="red" variant="solid">
+        <Button rightIcon={<FaRocket />} colorScheme="red" variant="solid" ml="auto">
           Launch App
         </Button>
       </Flex>
